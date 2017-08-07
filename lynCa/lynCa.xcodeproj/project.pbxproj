@@ -54,6 +54,7 @@
 		FC4AA96A1F346E7B005CA844 /* lynCa */ = {
 			isa = PBXGroup;
 			children = (
+				FCE5A8981F347BC600DBBFFC /* LYNCalendar */,
 				FC4AA96B1F346E7B005CA844 /* AppDelegate.swift */,
 				FC4AA96D1F346E7B005CA844 /* ViewController.swift */,
 				FC4AA96F1F346E7B005CA844 /* Main.storyboard */,
@@ -62,6 +63,13 @@
 				FC4AA9771F346E7B005CA844 /* Info.plist */,
 			);
 			path = lynCa;
+			sourceTree = "<group>";
+		};
+		FCE5A8981F347BC600DBBFFC /* LYNCalendar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LYNCalendar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +310,7 @@
 				FC4AA97C1F346E7B005CA844 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
