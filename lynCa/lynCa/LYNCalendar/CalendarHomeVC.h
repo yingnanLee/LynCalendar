@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "calendarVC.h"
+@interface CalendarHomeVC : calendarVC
 
-@interface CalendarHomeVC : UIViewController
+@property(nonatomic, strong)NSString *calendarTitle; //导航栏
+
+-(void)setTotalDays: (int)day TodateForString: (NSString *)toDate;
 
 @end

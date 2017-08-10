@@ -9,9 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "calendarLogic.h"
 
-typedef void (^CalenderBlock)(calendarModel *model);
+typedef void(^calenderBlock)(calendarModel *model);
 
 @interface calendarVC : UIViewController
+
+@property(nonatomic, strong) UICollectionView *collectionView;
+@property(nonatomic, strong)NSMutableArray *calendarMounth;
+@property(nonatomic, strong) calendarLogic *logic;
+@property(nonatomic, copy)calenderBlock calendarBlock;
 
 
 @end
