@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "calendarLogic.h"
+
+typedef void (^CalenderBlock)(calendarModel *model);
 
 @interface calendarVC : UIViewController
 
-typedef void (^CalenderBlock)();
 
 @end
