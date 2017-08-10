@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC4AA96C1F346E7B005CA844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4AA96B1F346E7B005CA844 /* AppDelegate.swift */; };
-		FC4AA96E1F346E7B005CA844 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4AA96D1F346E7B005CA844 /* ViewController.swift */; };
 		FC4AA9711F346E7B005CA844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4AA96F1F346E7B005CA844 /* Main.storyboard */; };
 		FC4AA9731F346E7B005CA844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4AA9721F346E7B005CA844 /* Assets.xcassets */; };
 		FC4AA9761F346E7B005CA844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4AA9741F346E7B005CA844 /* LaunchScreen.storyboard */; };
+		FC9201661F3A9CF5006AD3FD /* CalendarHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9201651F3A9CF5006AD3FD /* CalendarHomeVC.m */; };
+		FC92016C1F3A9D50006AD3FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9201681F3A9D50006AD3FD /* AppDelegate.swift */; };
+		FC92016E1F3A9D50006AD3FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92016B1F3A9D50006AD3FD /* ViewController.swift */; };
+		FC9201711F3A9DBB006AD3FD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC9201701F3A9DBB006AD3FD /* Info.plist */; };
+		FC9201751F3A9FB5006AD3FD /* calendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9201741F3A9FB5006AD3FD /* calendarVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC4AA9681F346E7B005CA844 /* lynCa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lynCa.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC4AA96B1F346E7B005CA844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC4AA96D1F346E7B005CA844 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FC4AA9701F346E7B005CA844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC4AA9721F346E7B005CA844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC4AA9751F346E7B005CA844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FC4AA9771F346E7B005CA844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9201641F3A9CF5006AD3FD /* CalendarHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarHomeVC.h; sourceTree = "<group>"; };
+		FC9201651F3A9CF5006AD3FD /* CalendarHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarHomeVC.m; sourceTree = "<group>"; };
+		FC9201681F3A9D50006AD3FD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC92016B1F3A9D50006AD3FD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC9201701F3A9DBB006AD3FD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9201721F3A9DEB006AD3FD /* lynCa-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "lynCa-Bridging-Header.h"; sourceTree = "<group>"; };
+		FC9201731F3A9FB5006AD3FD /* calendarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calendarVC.h; sourceTree = "<group>"; };
+		FC9201741F3A9FB5006AD3FD /* calendarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calendarVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,20 +62,33 @@
 		FC4AA96A1F346E7B005CA844 /* lynCa */ = {
 			isa = PBXGroup;
 			children = (
+				FC9201671F3A9D1A006AD3FD /* appDelegate */,
 				FCE5A8981F347BC600DBBFFC /* LYNCalendar */,
-				FC4AA96B1F346E7B005CA844 /* AppDelegate.swift */,
-				FC4AA96D1F346E7B005CA844 /* ViewController.swift */,
 				FC4AA96F1F346E7B005CA844 /* Main.storyboard */,
 				FC4AA9721F346E7B005CA844 /* Assets.xcassets */,
+				FC9201701F3A9DBB006AD3FD /* Info.plist */,
 				FC4AA9741F346E7B005CA844 /* LaunchScreen.storyboard */,
-				FC4AA9771F346E7B005CA844 /* Info.plist */,
 			);
 			path = lynCa;
+			sourceTree = "<group>";
+		};
+		FC9201671F3A9D1A006AD3FD /* appDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FC9201681F3A9D50006AD3FD /* AppDelegate.swift */,
+				FC92016B1F3A9D50006AD3FD /* ViewController.swift */,
+			);
+			path = appDelegate;
 			sourceTree = "<group>";
 		};
 		FCE5A8981F347BC600DBBFFC /* LYNCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				FC9201721F3A9DEB006AD3FD /* lynCa-Bridging-Header.h */,
+				FC9201641F3A9CF5006AD3FD /* CalendarHomeVC.h */,
+				FC9201651F3A9CF5006AD3FD /* CalendarHomeVC.m */,
+				FC9201731F3A9FB5006AD3FD /* calendarVC.h */,
+				FC9201741F3A9FB5006AD3FD /* calendarVC.m */,
 			);
 			path = LYNCalendar;
 			sourceTree = "<group>";
@@ -105,6 +126,7 @@
 					FC4AA9671F346E7B005CA844 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 8JFS2E3XF2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9201711F3A9DBB006AD3FD /* Info.plist in Resources */,
 				FC4AA9761F346E7B005CA844 /* LaunchScreen.storyboard in Resources */,
 				FC4AA9731F346E7B005CA844 /* Assets.xcassets in Resources */,
 				FC4AA9711F346E7B005CA844 /* Main.storyboard in Resources */,
@@ -145,8 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC4AA96E1F346E7B005CA844 /* ViewController.swift in Sources */,
-				FC4AA96C1F346E7B005CA844 /* AppDelegate.swift in Sources */,
+				FC92016E1F3A9D50006AD3FD /* ViewController.swift in Sources */,
+				FC92016C1F3A9D50006AD3FD /* AppDelegate.swift in Sources */,
+				FC9201751F3A9FB5006AD3FD /* calendarVC.m in Sources */,
+				FC9201661F3A9CF5006AD3FD /* CalendarHomeVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,11 +294,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 8JFS2E3XF2;
 				INFOPLIST_FILE = lynCa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.car-me.lynCa";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "lynCa/LYNCalendar/lynCa-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -282,11 +310,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 8JFS2E3XF2;
 				INFOPLIST_FILE = lynCa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.car-me.lynCa";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "lynCa/LYNCalendar/lynCa-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
