@@ -15,6 +15,8 @@
 		FC92016E1F3A9D50006AD3FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92016B1F3A9D50006AD3FD /* ViewController.swift */; };
 		FC9201711F3A9DBB006AD3FD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC9201701F3A9DBB006AD3FD /* Info.plist */; };
 		FC9201751F3A9FB5006AD3FD /* calendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9201741F3A9FB5006AD3FD /* calendarVC.m */; };
+		FCE0ACA31F3C29140031E0FE /* calendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE0ACA21F3C29140031E0FE /* calendarModel.m */; };
+		FCE0ACA61F3C29270031E0FE /* calendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE0ACA51F3C29270031E0FE /* calendarLogic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,10 @@
 		FC9201721F3A9DEB006AD3FD /* lynCa-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "lynCa-Bridging-Header.h"; sourceTree = "<group>"; };
 		FC9201731F3A9FB5006AD3FD /* calendarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calendarVC.h; sourceTree = "<group>"; };
 		FC9201741F3A9FB5006AD3FD /* calendarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calendarVC.m; sourceTree = "<group>"; };
+		FCE0ACA11F3C29140031E0FE /* calendarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calendarModel.h; sourceTree = "<group>"; };
+		FCE0ACA21F3C29140031E0FE /* calendarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calendarModel.m; sourceTree = "<group>"; };
+		FCE0ACA41F3C29270031E0FE /* calendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calendarLogic.h; sourceTree = "<group>"; };
+		FCE0ACA51F3C29270031E0FE /* calendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calendarLogic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				FC9201651F3A9CF5006AD3FD /* CalendarHomeVC.m */,
 				FC9201731F3A9FB5006AD3FD /* calendarVC.h */,
 				FC9201741F3A9FB5006AD3FD /* calendarVC.m */,
+				FCE0ACA11F3C29140031E0FE /* calendarModel.h */,
+				FCE0ACA21F3C29140031E0FE /* calendarModel.m */,
+				FCE0ACA41F3C29270031E0FE /* calendarLogic.h */,
+				FCE0ACA51F3C29270031E0FE /* calendarLogic.m */,
 			);
 			path = LYNCalendar;
 			sourceTree = "<group>";
@@ -169,8 +179,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC92016E1F3A9D50006AD3FD /* ViewController.swift in Sources */,
+				FCE0ACA31F3C29140031E0FE /* calendarModel.m in Sources */,
 				FC92016C1F3A9D50006AD3FD /* AppDelegate.swift in Sources */,
 				FC9201751F3A9FB5006AD3FD /* calendarVC.m in Sources */,
+				FCE0ACA61F3C29270031E0FE /* calendarLogic.m in Sources */,
 				FC9201661F3A9CF5006AD3FD /* CalendarHomeVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
