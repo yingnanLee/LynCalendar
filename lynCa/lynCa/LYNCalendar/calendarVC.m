@@ -79,6 +79,16 @@ static NSString *DayCell = @"DayCell";
         [weekView addSubview:lab];
     }
     
+    calendarMounthCollectionViewLayout *layout = [calendarMounthCollectionViewLayout new];
+    self.collectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, self.view.frame.size.height - 50) collectionViewLayout:layout];
+    [self.collectionView registerClass:[calendarDayCell class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:MonthHeader];
+    self.collectionView.bounces = NO;
+    self.collectionView.delegate = self;
+    self.collectionView.dataSource = self;
+    self.collectionView.showsHorizontalScrollIndicator = NO;
+    self.collectionView.backgroundColor = COLOR_THEME4;
+    [self.view addSubview:self.collectionView];
+    [self.view addSubview:weekView];
     
     
     
@@ -86,8 +96,20 @@ static NSString *DayCell = @"DayCell";
 
 
 -(void)initData {
-    
+    self.calendarMounth = [[NSMutableArray alloc]init];
 }
+
+-(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
+{
+    return self.calendarMounth.count;
+}
+
+-(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
+{
+    NSMutableArray *mounthArr = [self.calendarMounth objectAtIndex:section];
+    return mounthArr.count;
+}
+
 
 
 
